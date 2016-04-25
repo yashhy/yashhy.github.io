@@ -9,7 +9,7 @@ angular.module('PersonalManager').controller('BoardCtrl',
       var url = './data/board-new.json';
       if ($scope.boardName == 0) {
           $scope.boardName = 'Existing Board';
-          url = '/data/board-existing.json';        
+          url = './data/board-existing.json';        
       }
 
       getBoards(url).then(function (response) {
