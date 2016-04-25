@@ -6,7 +6,7 @@ angular.module('PersonalManager').controller('BoardCtrl',
 
       $scope.boardName = $stateParams.id;
 
-      var url = '/data/board-new.json';
+      var url = './data/board-new.json';
       if ($scope.boardName == 0) {
           $scope.boardName = 'Existing Board';
           url = '/data/board-existing.json';        
