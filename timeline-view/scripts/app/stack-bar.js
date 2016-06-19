@@ -7,7 +7,7 @@ angular.module('TimelineView').directive('stackBar', function () {
     		right: '=',
     		color: '@'
     	},
-    	templateUrl: '../views/stack-bar.html',
+    	templateUrl: './views/stack-bar.html',
     	link: function (scope, element, attr) {
     		scope.getLeftClass = function () {
     			var width = parseInt(scope.left[1]),

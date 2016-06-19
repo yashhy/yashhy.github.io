@@ -5,7 +5,7 @@ angular.module('TimelineView').directive('goalBar', function () {
     	scope: {
     		percentage: '@'
     	},
-    	templateUrl: '../views/goal-bar.html',
+    	templateUrl: './views/goal-bar.html',
     	link: function (scope, element, attr) {
     		scope.getPercentageLeft = function () {
     			var width = parseInt(scope.percentage);

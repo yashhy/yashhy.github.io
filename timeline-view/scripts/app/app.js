@@ -7,7 +7,7 @@ angular.module('TimelineView',
         $stateProvider.state('home', {
             url : '/home',
             controller : 'HomeCtrl',
-            templateUrl : '../views/home.html'
+            templateUrl : './views/home.html'
         });
 
         $urlRouterProvider.otherwise('/home');

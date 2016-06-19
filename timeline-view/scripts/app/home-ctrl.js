@@ -40,7 +40,7 @@ angular.module('TimelineView').controller('HomeCtrl',
     }
 
     function getTimeLineData() {
-      return $http.get('../data/time-line-data.json');
+      return $http.get('./data/time-line-data.json');
     }
 
     function getChartConfig() {
