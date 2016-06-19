@@ -1,0 +1,121 @@
+<div class="row home">
+	<div class="col-md-6">
+		<input type="text" 
+				value="" 
+				placeholder="Search insertion orders..." 
+				class="form-control" 
+				ng-model="searchTable"/>
+	</div>
+	<div class="col-md-6">
+		<div class="btn-group col-md-offset-5 col-md-4" role="group" aria-label="...">
+		  <button type="button" disabled class="btn btn-default active">MONTH</button>
+		  <button type="button" disabled class="btn btn-default">QUATER</button>
+		  <button type="button" disabled class="btn btn-default">YEAR</button>
+		</div>
+
+		<div class="btn-group col-md-3" role="group" aria-label="...">
+		  <button type="button" disabled class="btn btn-default active">TIMELINE</button>
+		  <button type="button" disabled class="btn btn-default">LIST</button>
+		</div>
+	</div>
+
+	<div class="table">
+		<div class="today">
+			<span>TODAY</span>
+		</div>
+		<table class="table table-bordered table-hover">
+		  <thead>
+		    <tr>
+		      <th>
+		      	<input type="checkbox"/>
+		      </th>
+		      <th>
+		      	<div class="row">
+		      		<div class="col-md-1">&nbsp;
+					</div>
+					<div class="col-md-11">
+					  Name
+					</div>
+		      	</div>
+		      </th>
+		      <th ng-repeat="day in timeLineHeader">
+		      	{{day | date: 'd MMM'}}
+		      </th>
+		      <th>% of Goal</th>
+		    </tr>
+		  </thead>
+		  <tbody ng-repeat="row in timeLineData | filter: {name: searchTable}"
+		  			ng-click="toggleRow(-1, $event)">
+		    <tr>
+		      <td>
+		      	<input type="checkbox"/>
+		      </td>
+		      <td>
+		      	<div class="row">
+		      		<div class="col-md-1 donut">
+					  <div class="donut-hole">
+					   &nbsp;
+					  </div>
+					</div>
+			      	<a href="" class="col-md-11" ng-click="toggleRow($index, $event)">{{row.name}}</a>
+		      	</div>
+	      	  </td>
+		      <td ng-repeat="timeLine in row.timeLine">
+		      	<stack-bar left="timeLine.left" right="timeLine.right"></stack-bar>
+		      </td>
+		      <td>
+		      	<goal-bar percentage="{{row.details.brief[2].value}}"></goal-bar>
+		      </td>
+		    </tr>
+
+		    <tr ng-if="openDetailPosition == $index" class="detail-row">
+              <td colspan="10">
+              	<div class="row">
+
+              		<highchart id="container" config="chartConfig" class="col-md-4"></highchart>
+
+	               	<div class="detail-row-content col-md-8">
+	               		<div class="row">
+	               			<div class="col-md-3">
+	               				<div class="short-name">
+	               					{{row.details.shortName}}
+	               				</div>
+	               				<div class="short-sub-name">
+	               					{{row.details.subName}}
+	               				</div>
+	               			</div>
+	               			<div class="col-md-offset-6 col-md-3">
+	               				<div class="row">
+		               				<button class="btn btn-primary col-md-6" 
+		               						ng-click="onDetailClick($event)">
+		               					EDIT
+	               					</button>
+		               				<button disabled 
+		               					class="btn btn-default col-md-offset-1 col-md-5"
+		               					ng-click="onDetailClick($event)">
+		               					EXPLORE
+	               					</button>
+	               				</div>
+	               			</div>
+	               		</div>
+	               		<div class="row">
+	               			<div class="col-md-2" ng-repeat="details in row.details.brief">
+	               				<div class="short-name">
+	               					<span ng-if="$index != 2">{{details.value}}</span>
+	               					<span ng-if="$index == 2">{{details.value}}%</span>
+	               				</div>
+	               				<div class="short-sub-name">
+	               					{{details.name}}
+	               				</div>
+	               			</div>
+	               		</div>
+	               	</div>
+
+              	</div>               	
+              </td>
+	        </tr>
+
+		  </tbody>
+		</table>
+	</div>
+</div>

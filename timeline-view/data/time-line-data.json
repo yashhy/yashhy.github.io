@@ -1,0 +1,256 @@
+[{
+  "name": "Macy's Furniture Sale",
+  "timeLine": [{
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["black", 50]
+  }, {
+    "left": ["grey", 50],
+    "right": ["grey", 50]
+  }, {
+    "left": ["grey", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }],  
+  "graph": [{
+    "color": "#bba3cf",
+    "data": [700, 660, 700, 750, 700, 650, 625, 700, 600]
+  }, {
+    "color": "#f29c7f",
+    "data": [490, 480, 480, 460, 450, 455, 470, 460, 480]
+  }],
+  "details": {
+    "shortName": "Macy",
+    "subName": "Furniture",
+    "brief": [{
+      "value": "787,300",
+      "name": "impression"
+    }, {
+      "value": 0.22,
+      "name": "vcr"
+    }, {
+      "value": 50,
+      "name": "of goal"
+    }, {
+      "value": "$21.54",
+      "name": "cpm"
+    }, {
+      "value": 4.55,
+      "name": "ctr"
+    }]
+  }
+}, {
+  "name": "History Channel - Axe Men",
+  "timeLine": [{
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 80],
+    "right": ["grey", 20]
+  }, {
+    "left": ["grey", 70],
+    "right": ["white", 30]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }],  
+  "graph": [{
+    "color": "#bba3cf",
+    "data": [490, 480, 480, 460, 450, 455, 470, 460, 480]
+  }, {
+    "color": "#f29c7f",
+    "data": [550, 645, 700, 750, 700, 700, 600, 750, 600]
+  }],
+  "details": {
+    "shortName": "History Channel",
+    "subName": "Advertiser",
+    "brief": [{
+      "value": "625,111",
+      "name": "impression"
+    }, {
+      "value": 0.32,
+      "name": "vcr"
+    }, {
+      "value": 40,
+      "name": "of goal"
+    }, {
+      "value": "$6.55",
+      "name": "cpm"
+    }, {
+      "value": 0.35,
+      "name": "ctr"
+    }]
+  }
+}, {
+  "name": "Nike World Cup",
+  "timeLine": [{
+    "left": ["white", 40],
+    "right": ["black", 60]
+  }, {
+    "left": ["black", 50],
+    "right": ["black", 50]
+  }, {
+    "left": ["black", 50],
+    "right": ["black", 50]
+  }, {
+    "left": ["grey", 50],
+    "right": ["grey", 50]
+  }, {
+    "left": ["grey", 70],
+    "right": ["white", 20]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }],  
+  "graph": [{
+    "color": "#bba3cf",
+    "data": [650, 600, 700, 750, 600, 650, 600, 700, 600]
+  }, {
+    "color": "#f29c7f",
+    "data": [490, 480, 480, 460, 450, 455, 470, 460, 480]
+  }],
+  "details": {
+    "shortName": "Nike",
+    "subName": "Sponsor",
+    "brief": [{
+      "value": "564,879",
+      "name": "impression"
+    }, {
+      "value": 0.85,
+      "name": "vcr"
+    }, {
+      "value": 80,
+      "name": "of goal"
+    }, {
+      "value": "$65.6",
+      "name": "cpm"
+    }, {
+      "value": 1.88,
+      "name": "ctr"
+    }]
+  }
+}, {
+  "name": "AT&T Market",
+  "timeLine": [{
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["black", 50]
+  }, {
+    "left": ["black", 50],
+    "right": ["black", 50]
+  }, {
+    "left": ["grey", 80],
+    "right": ["white", 20]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }],  
+  "graph": [{
+    "color": "#bba3cf",
+    "data": [490, 480, 480, 460, 450, 455, 470, 460, 480]
+  }, {
+    "color": "#f29c7f",
+    "data": [550, 645, 700, 750, 700, 700, 600, 750, 600]
+  }],
+  "details": {
+    "shortName": "AT&T",
+    "subName": "Communication",
+    "brief": [{
+      "value": "5687",
+      "name": "impression"
+    }, {
+      "value": 0.64,
+      "name": "vcr"
+    }, {
+      "value": 60,
+      "name": "of goal"
+    }, {
+      "value": "$8.68",
+      "name": "cpm"
+    }, {
+      "value": 3.55,
+      "name": "ctr"
+    }]
+  }
+}, {
+  "name": "Toyota Fall Giveway Promo",
+  "timeLine": [{
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 50],
+    "right": ["white", 50]
+  }, {
+    "left": ["white", 70],
+    "right": ["grey", 30]
+  }, {
+    "left": ["grey", 50],
+    "right": ["grey", 50]
+  }, {
+    "left": ["grey", 50],
+    "right": ["white", 50]
+  }],  
+  "graph": [{
+    "color": "#bba3cf",
+    "data": [550, 645, 700, 750, 700, 700, 600, 750, 600]
+  }, {
+    "color": "#f29c7f",
+    "data": [490, 480, 480, 460, 450, 455, 470, 460, 480]
+  }],
+  "details": {
+    "shortName": "Toyota",
+    "subName": "Sales",
+    "brief": [{
+      "value": "56621",
+      "name": "impression"
+    }, {
+      "value": 0.87,
+      "name": "vcr"
+    }, {
+      "value": 0,
+      "name": "of goal"
+    }, {
+      "value": "$89.55",
+      "name": "cpm"
+    }, {
+      "value": 5.68,
+      "name": "ctr"
+    }]
+  }
+}]

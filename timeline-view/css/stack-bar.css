@@ -1,0 +1,62 @@
+.stack-bar {
+	width: 100%;
+	height: 40px;
+	display: inline-flex;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.stack-bar .white {
+	background: transparent;
+}
+
+.stack-bar .black {
+	background: #343a3a;
+}
+
+.stack-bar .grey {
+	background: #ddd;
+}
+
+.stack-bar .width-0 {
+	width: 0%;
+}
+
+.stack-bar .width-10 {
+	width: 10%;
+}
+
+.stack-bar .width-20 {
+	width: 20%;
+}
+
+.stack-bar .width-30 {
+	width: 30%;
+}
+
+.stack-bar .width-40 {
+	width: 40%;
+}
+
+.stack-bar .width-50 {
+	width: 50%;
+}
+
+.stack-bar .width-60 {
+	width: 60%;
+}
+
+.stack-bar .width-70 {
+	width: 70%;
+}
+
+.stack-bar .width-80 {
+	width: 80%;
+}
+
+.stack-bar .width-90 {
+	width: 90%;
+}
+
+.stack-bar .width-100 {
+	width: 100%;
+}

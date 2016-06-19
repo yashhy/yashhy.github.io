@@ -1,0 +1,144 @@
+
+/***** HOME *****/
+.home input {
+  width: 35%;
+}
+
+.home .today {
+  text-align: center;
+  right: 34px;
+  position: relative;
+  bottom: 4px;
+}
+
+.home .today span{
+  background: #343a3a;
+  color: #fff;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.home div.table {
+  margin-top: 5%;
+  padding: 1%;
+}
+
+.home table {
+  border: 0;
+}
+
+.home table th {
+  border: 0;
+}
+
+.home table tbody tr {
+  height: 60px;
+}
+
+.home table tbody td {
+  vertical-align: middle !important;
+}
+
+.home table tbody td a {
+  font-size: larger;
+}
+
+.home table th {
+  color: #d4d5d6;  
+  font-weight: 400 !important;
+  text-transform: uppercase;
+}
+
+.home table th:nth-child(1), th:nth-child(2), td:nth-child(1), td:nth-child(2) {
+  border-left: 0 !important;
+  border-right: 0px !important;
+}
+
+.home table th:nth-child(1), td:nth-child(1) {
+  width: 2%;
+}
+
+.home table th:nth-child(2), td:nth-child(2) {
+  width: 25%;
+}
+
+.home table th:nth-child(3), th:nth-child(4), th:nth-child(5), 
+    th:nth-child(6), th:nth-child(7), th:nth-child(8), th:nth-child(9) {
+  width: 7%;
+}
+
+.home table td:nth-child(3), td:nth-child(4), td:nth-child(5), 
+    td:nth-child(6), td:nth-child(7), td:nth-child(8), td:nth-child(9) {
+  padding: 0px !important;
+}
+
+.home table th:nth-child(10), td:nth-child(10) {
+  text-align: -webkit-right;
+  border-right: 0px !important;
+  border-left: 0px !important;
+}
+
+.home table th:nth-child(9), td:nth-child(9) {
+  border-right: 0px !important;
+  border-left: 0px !important;
+}
+
+.home table th:nth-child(6), td:nth-child(6) {
+  border-left: 2px solid #343a3a !important;
+}
+
+.home .detail-row .highcharts-container {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+.home .detail-row, .detail-row:hover {
+  background-color: rgba(245, 245, 245, 0.38);
+  padding: 1%;
+}
+
+.home .detail-row .detail-row-content .short-name {
+  font-size: xx-large;
+  color: #48b2cb;
+  font-weight: 100;
+}
+
+.home .detail-row .detail-row-content .short-sub-name {
+  font-size: smaller;
+  color: #a3a3a3;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home .detail-row .detail-row-content .btn-primary {
+  color: #fff;
+  background-color: #48b2cb;
+  border-color: #48b2cb;
+}
+
+.home .detail-row .detail-row-content .row:nth-child(2) {
+  margin-top: 5%;
+}
+
+.home .donut {
+  background: #b4cf7f;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: inline-table;
+}
+.home .donut .donut-hole {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background: #fff;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.home button.active:hover {
+  background-color: #e6e6e6;
+  cursor: default;
+}
