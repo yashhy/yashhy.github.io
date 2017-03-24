@@ -1,0 +1,19 @@
+<h3>Country List</h3> <br/>
+
+<div class="rows">
+	<div ng-repeat="country in countryList track by $index" class="col-md-4 well">
+		<div class="col-md-4">
+			<img ng-src="{{country.flagUrl}}" width="100px" height="60px">
+		</div>
+		<div class="col-md-8">
+			{{$index + 1}}. <a href="" ui-sref="one({id: country.id})"> {{country.name}}</a> <br/>
+			Lat: {{country.lat}} </br>
+			Lng: {{country.long}} </br>
+				
+		</div>
+		
+	</div>
+
+	<hr/>
+	<ui-view/>
+</div>

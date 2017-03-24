@@ -1,0 +1,11 @@
+<!-- <select ng-change="change({city: city})" ng-model="city.id">
+	<option  value="{{city.name}}">{{city.name}}</option>
+</select> -->
+
+<input type="text" name="" ng-model="searchCity" ng-click="hasInputClicked = true;">
+<div class="dropdown" ng-show="hasInputClicked">
+	<div class="dropdown-items" ng-repeat="city in cities | filter: searchCity">
+		<p ng-click="selectCity({city: city});">{{city.name}}</p>
+	</div>
+</div>
+
